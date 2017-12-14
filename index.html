@@ -4,18 +4,64 @@
         <meta charset="utf-8" />
         <title>Pig Latinizer</title>
         <!-- Bootstrap -->
-
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
         <!-- Your CSS -->
-        
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- JQuery -->
-       
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <!-- Your Javascript-->
+         <script src="js/script.js"></script>
     </head>
 
     <body>
-       
+       <div class="container text-center">
+           <div class="row">
+               <div class="col-sm-4"></div>
+               <div class="col-sm-4">
+                   <h1 class="title"> PIG LATINIZER</h1>
+               </div>
+               <div class="col-sm-4"></div>
+           </div>
+           <div class="row">
+               <div class="col-sm-2"></div>
+               <div class="col-sm-4">
+                   <p>TEXT:</p>
+               </div>
+               <div class="col-sm-6"></div>
+           </div>
+           <div class="text_input">
+               <div class="row">
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-8">
+                      <input id="word_box" placeholder="word"/>
+                      <button id="translate">Translate</button>
+                  </div>
+                  <div class="col-sm-2"></div>
+               </div>
+           </div>
+           <div class="result">
+               <div class="row">
+                   <div class="col-sm-2"></div>
+                   <div class="col-sm-3">
+                       <p>OUTPUT:</p>
+                   </div>
+                   <div class="col-sm-7"></div>
+               <div class="row"> 
+                       <div class="col-sm-2"></div>
+                       <div class="col-sm-6">
+                           <div class="new_word">
+                               
+                               <p>?</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4"></div>
+                </div>
+               </div>
+           </div>
+           
+       </div>   
     </body>
 </html>
