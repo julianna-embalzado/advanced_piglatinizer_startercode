@@ -10,7 +10,9 @@ $(document).ready(function() {
 
     // This function should return true if the input word starts with a vowel,
     // otherwise it should return false.
-    function wordStartsWithVowel(word) {
+    function wordStartsWithVowel(word) { 
+        var vowels = ["a, e, i, o, u"]
+        
 
     }
 
